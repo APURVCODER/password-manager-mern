@@ -9,7 +9,7 @@ A full-stack password manager built while learning the MERN stack (MongoDB, Expr
 
 
 Screenshot
-<img width="1918" height="1051" alt="image" src="https://github.com/user-attachments/assets/415d99bc-6c98-4398-ad8b-b3841884a4cd" />
+<img width="1918" height="1051" alt="image" src="ui.png" />
 
 Features
 
