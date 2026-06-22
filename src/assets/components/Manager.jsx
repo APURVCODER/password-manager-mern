@@ -124,15 +124,15 @@ const SavePassword = async () => {
         <div className='font-bold font-sans text-3xl'>PassOp</div>
         <div className='text-ls'>Your Own Password Manager</div>
       </div>
-      <div className="bg-black flex flex-col gap-y-4 p-1.5 mycontainer">
+      <div className="bg-purple-300 flex flex-col rounded-2xl gap-y-4 p-1.5 mycontainer">
         <div className="gap-x-2 flex">
-          <input name='Site' value={form.Site} onChange={handlechange} placeholder='Enter Website URL' className='text-white placeholder:font-sans px-3 py-1 w-full rounded-2xl border-2 border-white' type="text" />
+          <input name='Site' value={form.Site} onChange={handlechange} placeholder='Enter Website URL' className=' placeholder:font-sans px-3 py-1 w-full rounded-2xl border-2 border-white' type="text" />
         </div>
         <div className="gap-x-2.5 flex">
-          <input name='Username' value={form.Username} onChange={handlechange} placeholder='Enter Username' className='px-3 py-1 placeholder:font-sans text-white w-full sm:w-3/4 rounded-2xl border-2 border-white' type="text" />
+          <input name='Username' value={form.Username} onChange={handlechange} placeholder='Enter Username' className='px-3 py-1 placeholder:font-sans w-full sm:w-3/4 rounded-2xl border-2 border-white' type="text" />
           <div className="relative w-full sm:w-1/4">
-            <input name='Password' value={form.Password} onChange={handlechange} placeholder='Enter Password ' className='px-3 py-1 placeholder:font-sans text-white rounded-2xl border-2 border-white' type="text" />
-            <span className='absolute text-white left-40 top-1'><img className='w-7 bg-white hover:cursor-pointer hover:bg-amber-100' onClick={ShowPassword} ref={ref} src="src/assets/password.svg" alt="eye" /></span>
+            <input name='Password' value={form.Password} onChange={handlechange} placeholder='Enter Password ' className='px-3 py-1 placeholder:font-sans  rounded-2xl border-2 border-white' type="text" />
+            <span className='absolute left-40 top-1'><img className='w-7 hover:cursor-pointer hover:bg-amber-100' onClick={ShowPassword} ref={ref} src="src/assets/password.svg" alt="eye" /></span>
           </div>
         </div>
       </div>
